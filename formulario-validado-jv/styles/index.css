@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Arvo', serif;
+}
+body{
+
+	background: #56CCF2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header{
+	padding-top: 3rem;
+	display: flex;
+	justify-content: center;
+}
+.titulo{
+	 font-size: 3rem;
+	 color: #FFFFFF;
+	 text-shadow: 1px 1px 2px black;
+}
+
+.inicio{
+	margin: 5rem auto;
+	display: flex;
+	justify-content: center;
+	animation-duration: 1.5s;
+
+}
+.form{
+	display: flex;
+	justify-content: center;
+	border-radius: 5%;
+	border-bottom: 5px solid blue;
+	border-right: 5px solid blue;
+	border-left: 5px solid blue;
+	background-color: #2657E7;
+	max-width: 400px;
+}
+.form form{
+	margin: auto;
+}
+.form form div{
+	padding: 10px;
+
+}
+.input{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.inputs input{
+	font-size: 20px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color:#2CA6D1;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+form label{
+	font-size: 15px;
+	color: #ffffff;
+}
+.botones{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.botones button{
+	width: 100%;
+	margin: 5px 0;
+	font-size: 20px;
+	background-color:#2CA6D1;
+	color: #FFFFFF;
+}
+.botones button:hover{
+	background-color: #D7DBE5;
+	color: #2657E7;
+	font-size: 20px;
+}
+.botones a{
+	margin: 10px 0;
+	align-self: flex-end;
+	color: white;
+}
+.botones a:hover{
+	color: #2CA6D1;
+}
